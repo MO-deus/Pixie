@@ -55,4 +55,4 @@ discord_client.on('messageCreate',message => {
     
 });
 
-discord_client.login('OTk1MzQwNjMzODgxNDUyNTc1.GfzPFk.k82YnZX-dnGxs04OktFC7ZRs_Xo7_OhVpCU8Rw');
+discord_client.login('Your token goes here');
