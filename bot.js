@@ -52,6 +52,16 @@ discord_client.on('messageCreate',message => {
     {
         discord_client.command.get('clear').execute(message,args);
     }
+
+    else if(command == 'kick')
+    {
+        discord_client.command.get('kick').execute(message,args);
+    }
+
+    else if(command == 'ban')
+    {
+        discord_client.command.get('ban').execute(message,args);
+    }
     
 });
 
