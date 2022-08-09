@@ -1,4 +1,3 @@
-
 // const Discord = require('discord.io');
 const discord = require('discord.js');
 const discord_client = new discord.Client({intents: ["GUILDS", "GUILD_MESSAGES"]});
@@ -64,5 +63,4 @@ discord_client.on('messageCreate',message => {
     }
     
 });
-
-discord_client.login('Your token goes here');
+discord_client.login('OTk1MzQwNjMzODgxNDUyNTc1.G4DrFO.GU5-n_KmJqfekKi0-YwK2bn9YVDaaD_US5zRx8');
