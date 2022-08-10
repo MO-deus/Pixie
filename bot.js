@@ -63,4 +63,4 @@ discord_client.on('messageCreate',message => {
     }
     
 });
-discord_client.login('OTk1MzQwNjMzODgxNDUyNTc1.G4DrFO.GU5-n_KmJqfekKi0-YwK2bn9YVDaaD_US5zRx8');
+discord_client.login('your bot token goes here');
